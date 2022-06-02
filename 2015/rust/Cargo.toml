@@ -1,0 +1,15 @@
+[package]
+name = "aoc2015"
+version = "0.1.0"
+authors = ["Nick Meyer <nick@e3b0c442.dev>"]
+edition = "2021"
+default-run = "aoc2015"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+simple-error = "0.2"
+
+[build-dependencies]
+tinytemplate = "1"
+serde = { version = "1.0", features = ["derive"] }
